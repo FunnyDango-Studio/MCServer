@@ -1,0 +1,23 @@
+lastAccountName: Point1013
+timestamps:
+  login: 1598716307041
+  lastteleport: 1598718618946
+  logout: 1598716301192
+ipAddress: 61.227.156.90
+nickname: 橘森
+lastlocation:
+  world: Cruise_Ship_Terminal
+  x: -694.690867954267
+  y: 35.360704896847324
+  z: 245.81692118329892
+  yaw: -8.108082
+  pitch: 63.00036
+logoutlocation:
+  world: Dango
+  x: 927.5
+  y: 76.0
+  z: -318.5
+  yaw: -90.76221
+  pitch: 39.750355
+afk: false
+money: '100'

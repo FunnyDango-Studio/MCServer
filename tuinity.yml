@@ -1,0 +1,28 @@
+# Configuration file for Tuinity.
+delay-chunkunloads-by: 1
+lag-compensate-block-breaking: true
+pistons-can-push-tile-entities: false
+config-version-please-do-not-modify-me: 2
+world-settings:
+  default:
+    spawn-limits:
+      water-ambient: -1
+      monsters: -1
+      animals: -1
+      water-animals: -1
+      ambient: -1
+  world: {}
+  world_nether: {}
+  world_the_end: {}
+  survive_world: {}
+  shigen: {}
+  build: {}
+  old: {}
+  old_nether: {}
+  old_the_end: {}
+  Dango: {}
+  Norwegian_Dawn: {}
+  celebrity_xpedition: {}
+  Dango_nether: {}
+  Dango_the_end: {}
+  Cruise_Ship_Terminal: {}

@@ -1,0 +1,6 @@
+# PlayerStatueBuilderX Configuration File
+rate: 16
+cooldown: 1
+charge: DIAMOND
+exact: false
+priceRate: 0

@@ -1,0 +1,49 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - modifyworld.*
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.pay
+    - essentials.afk
+    - essentials.helpop
+    - essentials.ignore
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.msg
+    - essentials.msg.url
+    - essentials.spawn
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.delhome
+    - essentials.home
+    - essentials.sethome
+    - essentials.sethome.multiple
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.*
+    - chestcommands.open.menu.yml
+    - residence.create
+    - residence.select
+    - residence.delete
+    - residence.delete.subzon
+    - residence.rename
+    - residence.create.subzone
+    - residence.expand
+    - residence.expand.subzone
+    - residence.contract
+    - residence.contract.subzone
+    - residence.resize
+    - residence.chatcolor
+    - residence.chatkick
+    - residence.compass
+    - -residence.command.select
+    - pvptoggle.allow
+schema-version: 1

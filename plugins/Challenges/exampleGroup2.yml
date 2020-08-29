@@ -1,0 +1,24 @@
+name: '&rMiner'
+item: stone_pickaxe
+challenges:
+  mine_block-coal_ore:
+    name: 'Mine Coal'
+    item: coal
+    stages:
+      - 5 experience=10
+      - 10 experience=20 command=eco_give_%player_50,&a$50
+      - 25 experience=30 item=stone_pickaxe,1,efficiency=1,unbreaking=1
+  mine_block-iron_ore:
+    name: 'Mine Iron'
+    item: iron_ingot
+    stages:
+      - 5 experience=20
+      - 10 experience=40
+      - 25 experience=60 item=iron_pickaxe,1,name=&cSpeedy_Pickaxe,lore=&rMines_faster!|&rI_completed_Mine_Iron_3!,efficiency=3
+  mine_block-gold_ore:
+    name: 'Mine gold'
+    item: gold_ingot
+    stages:
+      - 5 experience=20
+      - 10 experience=40
+      - 25 experience=60 item=iron_pickaxe,1,name=&cSpeedy_Pickaxe,lore=&rMines_faster!|&rI_completed_Mine_gold_3!,efficiency=3

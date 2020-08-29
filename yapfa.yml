@@ -1,0 +1,19 @@
+# This is the main configuration file for YAPFA.
+# YAPFA contains many breaking changes and settings, so know what you are doing!
+# You have been warned!
+
+verbose: false
+config-version: 1
+settings:
+  disableEntityWaterChecks: false
+  disableEntityStuckChecks: false
+  disablePlayerOutOfWorldBorderCheck: true
+  disableEntityCollisions: true
+  checkEntityBlockCollisionTicks: 1
+  disableEntityCollisionboxes: true
+  onlyPlayerCollisions: false
+  pistonPushLimit: 12
+  itemStuckSleepTicks: 1
+  villager:
+    simplerVillagerBehavior: false
+    villagersHideAtNight: false

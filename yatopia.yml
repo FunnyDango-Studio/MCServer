@@ -1,0 +1,46 @@
+# This is the main configuration file for Yatopia.
+# Yatopia contains many breaking changes and settings, so know what you are doing!
+# You have been warned!
+
+allow-player-item-duplication: false
+allow-ridable-chestable-duping: false
+allow-sand-duping: false
+brand-name: Yatopia
+verbose: false
+async-advancements: true
+use-faster-eigencraft-redstone: false
+config-version: 1
+settings:
+  fixFallDistance: false
+  pistonPushLimit: 12
+  itemStuckSleepTicks: 1
+  disableEntityStuckChecks: false
+  villager:
+    simplerVillagerBehavior: false
+    villagersHideAtNight: false
+config-version-please-do-not-modify-me: 1
+worlds:
+  default:
+    use-block-distance-in-portal-search-radius: false
+    disable-observer-clocks: false
+    tick-empty-hoppers: false
+    fast-feature-search-dont-load: false
+    ticks-per:
+      full-hopper-cooldown: 128
+    collisions:
+      players: true
+      animals: true
+      ambient: true
+      monsters: true
+      villagers: true
+      pillagers: true
+      iron-golems: true
+      misc: true
+      items: true
+      water-creature: true
+      water-ambient: true
+    pigmen:
+      dont-target-unless-hit: false
+world-settings:
+  default:
+    allow-dragon-exp-duping: false

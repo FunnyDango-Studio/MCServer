@@ -1,0 +1,76 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1生存幫手'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 3
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &e你開啟了生存幫手清單'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  #open-with-item:
+   # id: compass
+    #left-click: false
+    #right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+spawncmd:
+  COMMAND: 'spawn'
+  NAME: '&e/spawn'
+  LORE:
+    - '點擊後可以回到重生點'
+  ID: enderpearl
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+  
+homecmd:
+  COMMAND: 'home'
+  NAME: '&e/home'
+  LORE:
+    - '點擊後可以回到家'
+  ID: white_bed
+  POSITION-X: 3
+  POSITION-Y: 1
+
+
+
+survivecmd:
+  COMMAND: 'warp survive'
+  NAME: '&e傳送到資源世界'
+  LORE:
+    - '點擊後可以到資源世界'
+    - '請注意資源世界會不定時重置'
+  ID: oak_log
+  POSITION-X: 6
+  POSITION-Y: 1
+

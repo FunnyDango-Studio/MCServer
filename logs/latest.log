@@ -1,0 +1,366 @@
+[00:06:47] [Server thread/INFO]: amdYes_intelNO issued server command: /mv import Cruise_Ship_Terminal
+[00:06:53] [Server thread/INFO]: amdYes_intelNO issued server command: /mv import Cruise_Ship_Terminal normal
+[00:06:53] [Server thread/INFO]: amdYes_intelNO: Starting import of world 'Cruise_Ship_Terminal'...
+[00:06:53] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'Cruise_Ship_Terminal' - Env: NORMAL - Type: null
+[00:06:53] [Server thread/INFO]: -------- World Settings For [Cruise_Ship_Terminal] --------
+[00:06:53] [Server thread/INFO]: Experience Merge Radius: 6.0
+[00:06:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:06:53] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Ra 48 / Mi 2 / Tiv false
+[00:06:53] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 3 Hopper Amount: 3
+[00:06:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:06:53] [Server thread/INFO]: Max TNT Explosions: 100
+[00:06:53] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[00:06:53] [Server thread/INFO]: Mob Spawn Range: 3
+[00:06:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:06:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:06:53] [Server thread/INFO]: View Distance: 10
+[00:06:53] [Server thread/INFO]: Item Merge Radius: 4.0
+[00:06:53] [Server thread/INFO]: Item Despawn Rate: 400
+[00:06:53] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:300
+[00:06:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:06:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:06:53] [Server thread/INFO]: Preparing start region for dimension minecraft:cruise_ship_terminal
+[00:06:53] [Server thread/INFO]: Loaded 0 spawn chunks for world Cruise_Ship_Terminal
+[00:06:53] [Server thread/INFO]: Time elapsed: 35 ms
+[00:06:59] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[00:06:59] [Server thread/WARN]: [Multiverse-Core] Original Location: X: -792 Y: 4 Z: 564 P: 0 Y: 0 
+[00:07:02] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'Cruise_Ship_Terminal' is located at: Cruise_Ship_Terminal:-790.50,-2.00,564.50:0.00:0.00
+[00:07:03] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[00:07:03] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[00:07:03] [Server thread/INFO]: [WorldGuard] (Cruise_Ship_Terminal) TNT ignition is PERMITTED.
+[00:07:03] [Server thread/INFO]: [WorldGuard] (Cruise_Ship_Terminal) Lighters are PERMITTED.
+[00:07:03] [Server thread/INFO]: [WorldGuard] (Cruise_Ship_Terminal) Lava fire is PERMITTED.
+[00:07:03] [Server thread/INFO]: [WorldGuard] (Cruise_Ship_Terminal) Fire spread is UNRESTRICTED.
+[00:07:03] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Cruise_Ship_Terminal'
+[00:07:03] [Server thread/INFO]: [QuickShop] Loading shops from the database...
+[00:07:03] [Server thread/INFO]: [QuickShop] Used 1ms to fetch all shops from the database.
+[00:07:03] [Server thread/INFO]: [QuickShop] Successfully loaded 0 shops! (Used 1ms, Avg 0ms per shop)
+[00:07:03] [Server thread/INFO]: [QuickShop] 0 shops will load after chunk have loaded, 0 shops will load after the world has loaded.
+[00:07:03] [Server thread/INFO]: amdYes_intelNO: Complete!
+[00:07:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9604ms or 192 ticks behind
+[00:07:03] [Server thread/WARN]: amdYes_intelNO moved too quickly! 31.57122414720493,0.0,-21.094070634370212
+[00:07:10] [Server thread/INFO]: amdYes_intelNO issued server command: /mv tp Cruise_Ship_Terminal
+[00:07:23] [Server thread/INFO]: amdYes_intelNO issued server command: /tp ~ 80 ~
+[00:07:42] [Server thread/INFO]: amdYes_intelNO issued server command: /mv setspawn
+[00:07:59] [Server thread/INFO]: amdYes_intelNO issued server command: /menu
+[00:08:01] [Server thread/INFO]: amdYes_intelNO issued server command: /warp survive
+[00:08:17] [Server thread/INFO]: amdYes_intelNO issued server command: /menu
+[00:08:20] [Server thread/INFO]: amdYes_intelNO issued server command: /home
+[00:08:24] [Server thread/INFO]: amdYes_intelNO issued server command: /menu
+[00:08:25] [Server thread/INFO]: amdYes_intelNO issued server command: /spawn
+[00:09:02] [Server thread/INFO]: amdYes_intelNO issued server command: /mv tp Cruise_Ship_Terminal
+[00:09:36] [Server thread/INFO]: amdYes_intelNO issued server command: /afk
+[00:09:45] [Server thread/INFO]: amdYes_intelNO issued server command: /afk YingLraft
+[00:09:46] [Server thread/INFO]: YingLraft issued server command: /mvtp Cruise_Ship_Terminal
+[00:10:01] [Server thread/WARN]: YingLraft moved too quickly! -37.7255582959001,-13.90719617241507,3.1596398954096685
+[00:10:02] [Server thread/WARN]: YingLraft moved too quickly! -11.85344554060191,-1.3899883151054375,0.9023842406361382
+[00:10:02] [Server thread/WARN]: YingLraft moved too quickly! -13.0,0.0,0.0
+[00:10:02] [Server thread/WARN]: YingLraft moved too quickly! -14.115131596973129,-1.7136926540565511,0.9280711976314251
+[00:10:03] [Server thread/WARN]: YingLraft moved too quickly! -21.573348453970198,-3.5644339352794105,1.8027433922663931
+[00:10:56] [Server thread/WARN]: YingLraft moved too quickly! 33.31185845095217,-21.780575717918545,4.089571186827925
+[00:10:57] [Server thread/WARN]: YingLraft moved too quickly! 14.349063559047295,-6.562337654636462,2.4728814000491184
+[00:10:58] [Server thread/WARN]: YingLraft moved too quickly! 14.433545475078176,-4.687800341771911,-0.09969487627637363
+[00:11:01] [Server thread/WARN]: YingLraft moved too quickly! 23.784959438055807,-10.119028113803672,4.307179020532317
+[00:11:03] [Server thread/WARN]: YingLraft moved too quickly! 10.882872791580894,-5.187371740417607,29.955661138611845
+[00:11:04] [Server thread/WARN]: YingLraft moved too quickly! 5.950817406252327,-1.9486715464625313,16.989502332044538
+[00:11:04] [Server thread/WARN]: YingLraft moved too quickly! 4.7099985785164336,-0.7136926540565511,15.16119441688926
+[00:11:04] [Server thread/WARN]: YingLraft moved too quickly! 4.884477855356295,-2.010369727134705,19.5673394553977
+[00:11:05] [Server thread/WARN]: YingLraft moved too quickly! 2.9649170687298465,-0.3899883151054375,10.861801050279553
+[00:11:14] [Server thread/WARN]: YingLraft moved too quickly! 12.467339925256624,-6.9244402412397505,12.74171455108791
+[00:11:16] [Server thread/WARN]: YingLraft moved too quickly! 43.464749483449395,-68.81214610938017,16.871935944146344
+[00:12:20] [Server thread/INFO]: YingLraft issued server command: //copy
+[00:12:23] [Server thread/INFO]: YingLraft issued server command: /tp Blacksauce0609
+[00:12:29] [Server thread/INFO]: YingLraft issued server command: /weather clear
+[00:12:30] [Server thread/INFO]: Blacksauce0609 issued server command: /weather sun
+[00:12:38] [Server thread/INFO]: YingLraft issued server command: //paste
+[00:13:30] [Server thread/INFO]: Point1013 issued server command: /tp YingLraft
+[00:13:52] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:13:53] [Server thread/WARN]: Blacksauce0609 moved too quickly! 12.682685906484153,0.0,1.9526083899855848
+[00:13:53] [Server thread/WARN]: Point1013 moved too quickly! 7.261160009439095,5.797383760979756,10.82870531458832
+[00:13:54] [Server thread/INFO]: amdYes_intelNO issued server command: /gmsp
+[00:13:57] [Server thread/INFO]: YingLraft issued server command: /mvtp Cruise_Ship_Terminal
+[00:14:09] [Server thread/WARN]: YingLraft moved too quickly! 8.02541730845985,-22.686367239803054,-63.7738347101822
+[00:14:09] [Server thread/WARN]: YingLraft moved too quickly! -0.2119253360760922,-3.190741904454125,-15.930205927156521
+[00:14:10] [Server thread/WARN]: amdYes_intelNO moved too quickly! -57.31617139762011,-21.125719661860202,-100.12906203243597
+[00:14:12] [Server thread/WARN]: YingLraft moved too quickly! -33.002571505081505,-3.5643627601126973,-4.73710673548004
+[00:14:13] [Server thread/WARN]: amdYes_intelNO moved too quickly! -51.225911320737396,2.461855711618874,-7.293223081573046
+[00:14:15] [Server thread/WARN]: amdYes_intelNO moved too quickly! 0.7778586973253141,9.864107456006217,-4.711436795454404
+[00:14:23] [Server thread/WARN]: YingLraft moved too quickly! 25.370300110489097,-10.686966510040222,30.860326748065972
+[00:14:24] [Server thread/WARN]: YingLraft moved too quickly! 27.693789489289884,-7.06251170117665,20.915934336091027
+[00:14:27] [Server thread/WARN]: amdYes_intelNO moved too quickly! 58.047922564320174,-17.75023640194975,85.91850275983097
+[00:14:38] [Server thread/WARN]: YingLraft moved too quickly! 78.93203716588835,-31.73712784881073,41.42239413825189
+[00:14:50] [Server thread/INFO]: Blacksauce0609 issued server command: /tp YingLraft
+[00:14:53] [Server thread/INFO]: YingLraft issued server command: /tp Point1013 YingLraft
+[00:15:45] [Server thread/WARN]: YingLraft moved too quickly! -40.694600253513045,-26.56112388453512,27.078023390726685
+[00:15:46] [Server thread/WARN]: YingLraft moved too quickly! -33.18756596605601,-3.078142635601047,-0.8478587312012564
+[00:15:51] [Server thread/WARN]: YingLraft moved too quickly! 7.477252699193514,-4.936854051639678,-19.878101462251152
+[00:16:06] [Server thread/WARN]: YingLraft moved too quickly! 21.02630545181603,-6.18724819002415,-0.5406405483990397
+[00:16:06] [Server thread/WARN]: YingLraft moved too quickly! 9.850115028771711,-2.078142635601047,0.008965085791714955
+[00:16:19] [Server thread/INFO]: []<杰> 像0元的MCMMO
+[00:16:27] [Server thread/INFO]: amdYes_intelNO issued server command: /pl
+[00:17:15] [Server thread/INFO]: YingLraft issued server command: /weather clear
+[00:18:02] [Server thread/INFO]: YingLraft issued server command: /tp Point1013
+[00:18:02] [Server thread/WARN]: YingLraft moved too quickly! -39.98750001192093,17.0,74.29721077855606
+[00:18:06] [Server thread/INFO]: Blacksauce0609 issued server command: /tp Point1013
+[00:18:33] [Server thread/INFO]: YingLraft issued server command: //copy
+[00:18:46] [Server thread/INFO]: YingLraft issued server command: /mvtp dango
+[00:18:57] [Server thread/INFO]: YingLraft issued server command: //paste
+[00:19:07] [Server thread/INFO]: YingLraft issued server command: /undo
+[00:19:17] [Server thread/INFO]: YingLraft issued server command: //paste
+[00:19:22] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:19:23] [Server thread/INFO]: YingLraft issued server command: //paste
+[00:19:31] [Server thread/INFO]: YingLraft issued server command: /tp Point1013
+[00:19:46] [Server thread/WARN]: Blacksauce0609 moved too quickly! 5.025075940885927,-31.693208323297846,13.379535365533059
+[00:20:06] [Server thread/INFO]: Point1013 issued server command: /tp Blacksauce0609 Point1013
+[00:20:38] [Server thread/WARN]: YingLraft moved too quickly! -24.552308051630007,0.0,0.9953593155091767
+[00:21:46] [Server thread/INFO]: YingLraft issued server command: //set 0
+[00:22:19] [Server thread/INFO]: []<【伺服主】影凌> city
+[00:23:24] [Server thread/INFO]: YingLraft issued server command: //copy
+[00:23:33] [Server thread/INFO]: YingLraft issued server command: /mvtp dango
+[00:23:45] [Server thread/INFO]: YingLraft issued server command: //paste
+[00:23:49] [Server thread/WARN]: amdYes_intelNO moved too quickly! -25.225381682973648,8.056348990458488,-30.654768700997465
+[00:23:56] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:23:59] [Server thread/WARN]: YingLraft moved too quickly! 0.0,-10.31167695533722,0.0
+[00:23:59] [Server thread/WARN]: amdYes_intelNO moved too quickly! -22.986683553023113,-3.005537227781133,32.27483182785318
+[00:24:18] [Server thread/INFO]: YingLraft issued server command: //rotate 180
+[00:24:19] [Server thread/INFO]: YingLraft issued server command: //paste
+[00:24:52] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:24:53] [Server thread/WARN]: amdYes_intelNO moved too quickly! -1.4210107957212585,-7.68137143860767,8.449747791409152
+[00:24:57] [Server thread/INFO]: YingLraft issued server command: //paste
+[00:25:00] [Server thread/WARN]: amdYes_intelNO moved too quickly! -2.71340875403871,8.062021797080789,-7.277228987365106
+[00:25:05] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:25:07] [Server thread/WARN]: amdYes_intelNO moved too quickly! -9.3963487089095,-0.3306076295004772,4.170373210299488
+[00:25:09] [Server thread/INFO]: YingLraft issued server command: //paste
+[00:25:11] [Server thread/WARN]: amdYes_intelNO moved too quickly! 22.10469146725586,2.994247253310178,20.557068119076234
+[00:25:34] [Server thread/INFO]: amdYes_intelNO issued server command: /gamemode creative
+[00:25:43] [User Authenticator #3/INFO]: UUID of player brown_sugar_8920 is edba5e08-ca1c-4b9d-a8c3-478276095816
+[00:25:43] [Server thread/WARN]: [Multiverse-Core] The world specified as the spawn world (old) did not exist!!
+[00:25:44] [Server thread/INFO]: brown_sugar_8920 joined the game
+[00:25:44] [Server thread/INFO]: brown_sugar_8920[/122.147.26.208:50376] logged in with entity id 2727 at ([Dango]927.5, 77.0, -318.5)
+[00:25:44] [Server thread/WARN]: [Essentials] Task #540826 for Essentials v2.17.2.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:150) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.b(MinecraftServer.java:1367) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at net.minecraft.server.v1_16_R2.DedicatedServer.b(DedicatedServer.java:396) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1277) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:165) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[00:25:44] [Server thread/WARN]: [Multiverse-Core] The world specified as the spawn world (old) did not exist!!
+[00:26:07] [Server thread/INFO]: amdYes_intelNO issued server command: //replace water air
+[00:27:37] [Server thread/INFO]: amdYes_intelNO issued server command: /tp YingLraft
+[00:27:44] [Server thread/INFO]: YingLraft issued server command: /tp Point1013
+[00:27:56] [Server thread/INFO]: YingLraft issued server command: /mvtp dango
+[00:28:06] [Server thread/INFO]: YingLraft issued server command: /npc remove all
+[00:28:14] [Server thread/INFO]: YingLraft issued server command: /tptoggle YingLraft
+[00:28:19] [Server thread/INFO]: YingLraft issued server command: /tp Point1013 YingLraft
+[00:28:22] [Server thread/INFO]: YingLraft issued server command: /tp Point1013 YingLraft
+[00:28:28] [Server thread/INFO]: YingLraft issued server command: /tp Blacksauce0609 YingLraft
+[00:28:30] [Server thread/INFO]: brown_sugar_8920 issued server command: /tp YingLraft
+[00:28:54] [Server thread/INFO]: amdYes_intelNO issued server command: /tp Point1013 YingLraft
+[00:29:14] [Server thread/INFO]: brown_sugar_8920 issued server command: /gamemode creative
+[00:29:46] [Server thread/INFO]: YingLraft issued server command: //uno
+[00:29:47] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:29:49] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:29:49] [Server thread/WARN]: amdYes_intelNO moved too quickly! 1.019733032961085,-2.909014810646042,-17.509763356846634
+[00:29:57] [Server thread/INFO]: YingLraft issued server command: /tp Point1013
+[00:30:13] [Server thread/WARN]: YingLraft moved too quickly! -4.336374628865201,-4.687425914890245,16.82382974038069
+[00:30:17] [Server thread/WARN]: YingLraft moved too quickly! 13.07396452931107,-23.616737149601185,25.519986510956528
+[00:30:18] [Server thread/WARN]: YingLraft moved too quickly! -7.636346258517506,-0.7135557769393941,15.190316944733809
+[00:30:18] [Server thread/INFO]: Point1013 issued server command: /tp brown_sugar_8920
+[00:30:25] [Server thread/WARN]: YingLraft moved too quickly! 3.9809389928764176,-12.555611175876116,43.386733564380165
+[00:30:25] [Server thread/INFO]: Blacksauce0609 issued server command: /tp brown_sugar_8920
+[00:30:32] [Server thread/INFO]: amdYes_intelNO issued server command: //brush smooth 5
+[00:30:49] [Server thread/INFO]: amdYes_intelNO issued server command: //fixwater 20
+[00:31:02] [Server thread/INFO]: amdYes_intelNO issued server command: //fixwater 5
+[00:31:32] [Server thread/INFO]: YingLraft issued server command: //set 0
+[00:31:46] [Server thread/INFO]: YingLraft issued server command: //set 0
+[00:32:01] [Server thread/INFO]: YingLraft issued server command: //set 0
+[00:32:03] [Server thread/INFO]: YingLraft issued server command: //set 0
+[00:32:07] [Server thread/INFO]: YingLraft issued server command: //set 0
+[00:32:17] [Server thread/INFO]: YingLraft issued server command: //set 0
+[00:32:36] [Server thread/INFO]: YingLraft issued server command: //set 0
+[00:33:01] [Server thread/INFO]: amdYes_intelNO issued server command: /tp YingLraft
+[00:33:04] [Server thread/INFO]: amdYes_intelNO issued server command: /tp YingLraft
+[00:33:08] [Server thread/INFO]: YingLraft issued server command: //set 0
+[00:33:13] [Server thread/INFO]: YingLraft issued server command: //set 0
+[00:33:14] [Server thread/INFO]: amdYes_intelNO issued server command: /tp YingLraft
+[00:33:17] [Server thread/INFO]: amdYes_intelNO issued server command: /tp YingLraft
+[00:33:20] [Server thread/INFO]: YingLraft issued server command: /tp amdYes_intelNO YingLraft
+[00:33:21] [Server thread/INFO]: amdYes_intelNO issued server command: /gamemode spectator
+[00:33:28] [Server thread/INFO]: amdYes_intelNO issued server command: /gamemode creative
+[00:33:41] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:33:41] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:33:42] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:33:42] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:33:43] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:33:43] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:33:44] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:33:44] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:33:45] [Server thread/INFO]: YingLraft issued server command: //undo
+[00:34:24] [Server thread/WARN]: YingLraft moved too quickly! -16.80997549783831,-16.86747851217352,-24.347028490024513
+[00:34:39] [Server thread/WARN]: YingLraft moved too quickly! 57.939336364386804,-11.224801293653165,41.302767005506325
+[00:34:42] [Server thread/WARN]: YingLraft moved too quickly! 14.193706938488049,-18.199011548140312,30.168112841088373
+[00:34:43] [Server thread/WARN]: YingLraft moved too quickly! 23.420798549233155,-2.1905507609575814,13.964703574170358
+[00:34:52] [Server thread/WARN]: YingLraft moved too quickly! 21.086440353459807,-56.743591131680574,-42.58835262158652
+[00:34:54] [Server thread/WARN]: YingLraft moved too quickly! 5.740165625166014,-1.807570154065857,-20.480438581960016
+[00:34:55] [Server thread/WARN]: YingLraft moved too quickly! 4.232251340020412,-1.206107516860964,-17.519276569298654
+[00:34:55] [Server thread/WARN]: YingLraft moved too quickly! 4.006057000806663,-1.0,-17.374755553271143
+[00:34:55] [Server thread/WARN]: YingLraft moved too quickly! 0.4619507779862033,0.0,-17.609473022639577
+[00:34:56] [Server thread/WARN]: YingLraft moved too quickly! -0.1293997538948588,0.0,-20.400285109168863
+[00:34:57] [Server thread/WARN]: YingLraft moved too quickly! -6.125942689542626,-1.0,-67.3672231272007
+[00:34:58] [Server thread/WARN]: YingLraft moved too quickly! 5.9673205431926135,-1.0102890262603772,-20.563822042002585
+[00:34:58] [Server thread/WARN]: YingLraft moved too quickly! 6.8289941512668975,-1.3560910421371482,-23.370337294774743
+[00:34:59] [Server thread/WARN]: YingLraft moved too quickly! -6.560996951792731,-5.564149234612575,-64.6416526223619
+[00:34:59] [Server thread/WARN]: YingLraft moved too quickly! -2.935735421919617,-1.3560910421371482,-27.350701782561487
+[00:34:59] [Server thread/WARN]: YingLraft moved too quickly! -1.9727440463383346,-0.6839248752594003,-20.72461902566343
+[00:35:00] [Server thread/WARN]: YingLraft moved too quickly! 3.0363418195825034,-1.3560910421371482,-13.350525027936015
+[00:35:02] [Server thread/WARN]: YingLraft moved too quickly! -25.730285450764313,-12.792141485374088,35.491912286560336
+[00:35:02] [Server thread/WARN]: YingLraft moved too quickly! -3.154745605474659,0.0,28.358508995909148
+[00:35:02] [Server thread/WARN]: YingLraft moved too quickly! -4.089087927333708,0.0,28.88498286284522
+[00:35:02] [Server thread/WARN]: YingLraft moved too quickly! -6.0,0.0,48.0
+[00:35:04] [Server thread/WARN]: YingLraft moved too quickly! -4.878928376663566,-2.713555776939394,34.52585926841482
+[00:35:06] [Server thread/WARN]: YingLraft moved too quickly! -5.984476981560988,-11.86880389298588,33.870628555824794
+[00:35:25] [Server thread/WARN]: YingLraft moved too quickly! -5.636141627411121,-1.713555776939394,13.190279647075613
+[00:35:25] [Server thread/WARN]: YingLraft moved too quickly! -11.625896751643495,-0.7135557769393941,17.19582475775269
+[00:35:26] [Server thread/WARN]: YingLraft moved too quickly! -13.470371032280696,1.286444223060606,9.292355477447586
+[00:35:27] [Server thread/WARN]: YingLraft moved too quickly! -0.5757716518664893,-2.4466790880676292,21.62753090186027
+[00:35:28] [Server thread/WARN]: YingLraft moved too quickly! 0.002113759006761029,-0.35609104213714815,12.347553535926636
+[00:35:29] [Server thread/WARN]: YingLraft moved too quickly! 1.2531764553865514,-14.061618925339499,19.554786399241152
+[00:35:41] [Server thread/INFO]: amdYes_intelNO issued server command: /tp Point1013
+[00:35:48] [Server thread/INFO]: Blacksauce0609 issued server command: /tp YingLraft
+[00:35:56] [Server thread/INFO]: YingLraft issued server command: /mvtp dango
+[00:36:04] [Server thread/INFO]: [Dango]<【伺服主】影凌> ./mvtp dango
+[00:36:23] [Server thread/INFO]: brown_sugar_8920 issued server command: /mvtp dango
+[00:36:26] [Server thread/INFO]: Blacksauce0609 issued server command: /mvtp dango
+[00:36:26] [Server thread/WARN]: Blacksauce0609 moved too quickly! -11.100306178327173,-8.5,0.8137583247204248
+[00:36:51] [Server thread/INFO]: YingLraft issued server command: /mvlist
+[00:36:58] [Server thread/INFO]: YingLraft issued server command: /mvdelete Cruise_Ship_Terminal
+[00:37:02] [Server thread/INFO]: YingLraft issued server command: /mvconfirm
+[00:37:02] [Server thread/INFO]: [Multiverse-Core] World 'Cruise_Ship_Terminal' was unloaded from memory.
+[00:37:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (Cruise_Ship_Terminal): All chunks are saved
+[00:37:04] [Server thread/INFO]: [Multiverse-Core] World 'Cruise_Ship_Terminal' was unloaded from memory.
+[00:37:04] [Server thread/INFO]: [Multiverse-Core] World 'Cruise_Ship_Terminal' was removed from config.yml
+[00:37:04] [Server thread/INFO]: [Multiverse-Core] World 'Cruise_Ship_Terminal' was DELETED.
+[00:37:09] [Server thread/INFO]: amdYes_intelNO issued server command: /gc
+[00:38:06] [Server thread/WARN]: YingLraft moved too quickly! -14.670265083062304,-44.36711613256212,-28.67659756875429
+[00:42:46] [Server thread/INFO]: amdYes_intelNO issued server command: /afk
+[00:44:19] [Server thread/INFO]: YingLraft issued server command: /mvmset
+[00:44:28] [Server thread/INFO]: amdYes_intelNO issued server command: /mv
+[00:44:31] [Server thread/INFO]: amdYes_intelNO issued server command: /mv 2
+[00:44:31] [Server thread/INFO]: YingLraft issued server command: /mvhelp
+[00:44:34] [Server thread/INFO]: YingLraft issued server command: /mvinfo
+[00:44:36] [Server thread/INFO]: amdYes_intelNO issued server command: /mv 3
+[00:44:40] [Server thread/INFO]: YingLraft issued server command: /mv help 2
+[00:44:44] [Server thread/INFO]: YingLraft issued server command: /mv help 3
+[00:44:46] [Server thread/INFO]: YingLraft issued server command: /mv help 4
+[00:44:47] [Server thread/INFO]: YingLraft issued server command: /mv help 5
+[00:44:50] [Server thread/INFO]: YingLraft issued server command: /mv help 6
+[00:44:56] [Server thread/INFO]: amdYes_intelNO issued server command: /mv 4
+[00:45:06] [Server thread/INFO]: amdYes_intelNO issued server command: /mv 5
+[00:47:18] [Craft Scheduler Thread - 242 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
+[00:47:18] [Craft Scheduler Thread - 242 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[00:47:26] [Server thread/INFO]: YingLraft lost connection: Disconnected
+[00:47:26] [Server thread/INFO]: YingLraft left the game
+[00:47:26] [Server thread/WARN]: [Essentials] Task #835881 for Essentials v2.17.2.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:150) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.b(MinecraftServer.java:1367) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at net.minecraft.server.v1_16_R2.DedicatedServer.b(DedicatedServer.java:396) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1277) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:165) ~[patched_1.16.2.jar:git-Yatopia-"aca39ae"]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[00:48:39] [Server thread/INFO]: Blacksauce0609 issued server command: /tp Point1013
+[00:49:36] [Server thread/INFO]: amdYes_intelNO issued server command: /stop
+[00:49:36] [Server thread/INFO]: [amdYes_intelNO: Stopping the server]
+[00:49:36] [Server thread/INFO]: Stopping server
+[00:49:36] [Server thread/INFO]: [LockettePro] Disabling LockettePro v2.9.10
+[00:49:36] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.19.1
+[00:49:36] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Saved linked accounts in 1ms
+[00:49:37] [Log4j2-TF-1-AsyncLogger[AsyncContext@277050dc]-1/WARN]: [DiscordSRV] [JDA] Got interrupted while executing request
+[00:49:37] [Log4j2-TF-1-AsyncLogger[AsyncContext@277050dc]-1/WARN]: [DiscordSRV] [JDA] Got interrupted while executing request
+[00:49:37] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 432ms
+[00:49:37] [Server thread/INFO]: [UltimateChairs] Disabling UltimateChairs v1.0.9
+[00:49:37] [Server thread/INFO]: [QuickShop] Disabling QuickShop v4.0.4.9
+[00:49:37] [Server thread/INFO]: [QuickShop] QuickShop is finishing remaining work, this may need a while...
+[00:49:37] [Server thread/INFO]: [QuickShop] Please wait for the data to flush its data...
+[00:49:37] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.1
+[00:49:37] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[00:49:38] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.1
+[00:49:38] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.2.0
+[00:49:38] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.145
+[00:49:38] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (4)
+[00:49:38] [Server thread/INFO]: [mcMMO] Saving data for player: Point1013
+[00:49:38] [Server thread/INFO]: [mcMMO] Saving data for player: Blacksauce0609
+[00:49:38] [Server thread/INFO]: [mcMMO] Saving data for player: brown_sugar_8920
+[00:49:38] [Server thread/INFO]: [mcMMO] Saving data for player: amdYes_intelNO
+[00:49:38] [Server thread/INFO]: [mcMMO] Finished save operation for 4 players!
+[00:49:38] [Server thread/INFO]: [TAB] Disabling TAB v2.8.4
+[00:49:38] [Server thread/INFO]: [TAB] Disabled in 1ms
+[00:49:38] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.17.2.0
+[00:49:38] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.2.0
+[00:49:38] [Server thread/INFO]: [Residence] Disabling Residence v4.9.1.9
+[00:49:38] [Server thread/INFO]: [Residence] Disabled!
+[00:49:38] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.3.1
+[00:49:38] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.17.2.0
+[00:49:38] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.27-SNAPSHOT (build 2100)
+[00:49:38] [Server thread/INFO]: [PlayerStatueBuilderX] Disabling PlayerStatueBuilderX v1.9
+[00:49:38] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.4-beta1;bc551da
+[00:49:38] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[00:49:38] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
+[00:49:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[00:49:38] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0-SNAPSHOT+5280-46c3fcc
+[00:49:38] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:49:38] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b${env.TRAVIS_BUILD_NUMBER}
+[00:49:38] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[00:49:38] [Server thread/INFO]: [PL-Hide] Disabling PL-Hide v1.5.16.1
+[00:49:38] [Server thread/INFO]: [MVdWPlaceholderAPI] Disabling MVdWPlaceholderAPI v3.1.1
+[00:49:38] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
+[00:49:38] [Server thread/INFO]: [PvPToggle] Disabling PvPToggle v1.7
+[00:49:38] [Server thread/INFO]: [Challenges] Disabling Challenges v3.0.2
+[00:49:39] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.9
+[00:49:39] [Server thread/INFO]: Saving players
+[00:49:39] [Server thread/INFO]: brown_sugar_8920 lost connection: Server closed
+[00:49:39] [Server thread/INFO]: brown_sugar_8920 left the game
+[00:49:39] [Server thread/INFO]: Point1013 lost connection: Server closed
+[00:49:39] [Server thread/INFO]: Point1013 left the game
+[00:49:39] [Server thread/INFO]: Blacksauce0609 lost connection: Server closed
+[00:49:39] [Server thread/INFO]: Blacksauce0609 left the game
+[00:49:39] [Server thread/INFO]: amdYes_intelNO lost connection: Server closed
+[00:49:39] [Server thread/INFO]: amdYes_intelNO left the game
+[00:49:39] [Server thread/INFO]: Saving worlds
+[00:49:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dango]'/minecraft:overworld
+[00:49:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (Dango): All chunks are saved
+[00:49:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dango_nether]'/minecraft:the_nether
+[00:49:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:49:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dango_the_end]'/minecraft:the_end
+[00:49:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:49:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (Dango): All chunks are saved
+[00:49:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:49:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:49:42] [Server thread/INFO]: Saving usercache.json
+[00:49:42] [Server thread/INFO]: Flushing Chunk IO
+[00:49:42] [Server thread/INFO]: Closing Thread Pool
+[00:49:42] [Server thread/INFO]: Closing Server
