@@ -1,9 +1,9 @@
-paperlatest.jar
-/cache
+
+cache
 .console_history
-/dango
-/old
-/old_nether
-/old_the_end
-/plugins
+dango
+old
+old_nether
+old_the_end
+plugins
 yatopia-1.16.2-paperclip.jar
