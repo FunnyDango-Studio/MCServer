@@ -212,21 +212,30 @@ Global:
         MinCoord: 500
         CenterX: 0
         CenterZ: 0
+      # World name to use this feature. Add annother one with appropriate name to enable random teleportation
       old_the_end:
         Enabled: true
+        # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
         MaxCoord: 1000
+        # If maxcoord set to 1000 and mincoord to 500, then player can be teleported between -1000 to -500 and 500 to 1000 coordinates
         MinCoord: 500
         CenterX: 0
         CenterZ: 0
+      # World name to use this feature. Add annother one with appropriate name to enable random teleportation
       old_nether:
         Enabled: true
+        # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
         MaxCoord: 1000
+        # If maxcoord set to 1000 and mincoord to 500, then player can be teleported between -1000 to -500 and 500 to 1000 coordinates
         MinCoord: 500
         CenterX: 0
         CenterZ: 0
+      # World name to use this feature. Add annother one with appropriate name to enable random teleportation
       Dango:
         Enabled: true
+        # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
         MaxCoord: 1000
+        # If maxcoord set to 1000 and mincoord to 500, then player can be teleported between -1000 to -500 and 500 to 1000 coordinates
         MinCoord: 500
         CenterX: 0
         CenterZ: 0

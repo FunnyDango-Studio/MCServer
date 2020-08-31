@@ -1,23 +1,23 @@
 lastAccountName: amdYes_intelNO
 timestamps:
-  login: 1598716034557
-  logout: 1598710161112
+  login: 1598872680991
+  logout: 1598873566914
   lastteleport: 1598718941296
 ipAddress: 59.127.192.161
 lastlocation:
-  world: Cruise_Ship_Terminal
-  x: -856.4119334095474
-  y: 58.56032160501967
-  z: 729.1413788000054
-  yaw: -209.05695
-  pitch: 37.499893
+  world: dango
+  x: 958.2652393733683
+  y: 75.76310963313061
+  z: -285.3310029985406
+  yaw: 201.36829
+  pitch: 15.150122
 logoutlocation:
-  world: Dango
-  x: 977.3349885059788
-  y: 67.88900959103928
-  z: -350.88089403801536
-  yaw: 73.50319
-  pitch: 32.850025
+  world: dango
+  x: 898.2270770387845
+  y: 99.24843383173524
+  z: -361.625079210943
+  yaw: 333.31885
+  pitch: 25.949795
 homes:
   home:
     world: world
@@ -33,4 +33,4 @@ powertools:
   - tnt
   tnt:
   - tnt
-nickname: 杰
+nickname: §a【開發者】§e杰

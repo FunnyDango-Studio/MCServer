@@ -42,18 +42,18 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NETHER
-    seed: '-3603047980239668281'
+    seed: '1672815266012857053'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  build:
+  dango_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: build
+    alias: dango_the_end
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '1.0'
+    scale: '16.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: PEACEFUL
@@ -80,16 +80,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -266.5
-      y: 68.0
-      z: -293.5
+      x: 0.0
+      y: 63.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NORMAL
-    seed: '9013004335648913528'
+    environment: THE_END
+    seed: '1672815266012857053'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -183,20 +183,21 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: THE_END
-    seed: '-3603047980239668281'
+    seed: '1672815266012857053'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  ￧￥￥:
+  dango:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: dango
     color: WHITE
     style: NORMAL
-    pvp: 'false'
+    pvp: 'true'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
+    difficulty: PEACEFUL
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -217,14 +218,66 @@ worlds:
     adjustSpawn: 'true'
     portalForm: ALL
     gameMode: SURVIVAL
-    keepSpawnInMemory: 'false'
+    keepSpawnInMemory: 'true'
     spawnLocation:
-      ==: MVNullLocation (It's a bug if you see this in your config file)
+      ==: MVSpawnLocation
+      x: 927.0
+      y: 76.0
+      z: -319.0
+      pitch: 0.0
+      yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: 'null'
-    seed: '0'
+    environment: NORMAL
+    seed: '-5127899838137853493'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  dango_nether:
+    ==: MVWorld
+    hidden: 'false'
+    alias: dango_nether
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '8.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: PEACEFUL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: -3.5
+      y: 59.0
+      z: -3.5
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NETHER
+    seed: '1672815266012857053'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
