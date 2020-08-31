@@ -1,450 +1,434 @@
-[00:12:28] [Craft Scheduler Thread - 245 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[00:12:28] [Craft Scheduler Thread - 245 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[01:12:28] [Craft Scheduler Thread - 484 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[01:12:28] [Craft Scheduler Thread - 484 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[02:12:28] [Craft Scheduler Thread - 723 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[02:12:28] [Craft Scheduler Thread - 723 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[03:12:28] [Craft Scheduler Thread - 964 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[03:12:28] [Craft Scheduler Thread - 964 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[04:12:28] [Craft Scheduler Thread - 1204 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[04:12:28] [Craft Scheduler Thread - 1204 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[04:18:50] [Server thread/INFO]: Point1013 lost connection: Disconnected
-[04:18:50] [Server thread/INFO]: Point1013 left the game
-[04:18:50] [Server thread/WARN]: [Essentials] Task #293752 for Essentials v2.17.2.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.b(MinecraftServer.java:1367) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.DedicatedServer.b(DedicatedServer.java:396) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1277) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+[23:29:04] [main/INFO]: [STDOUT]: No global eula found at /home/jason/eula.txt
+[23:29:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[23:29:04] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[23:29:06] [Server-Worker-3/INFO]: Loaded 7 recipes
+[23:29:08] [Server thread/INFO]: Starting minecraft server version 1.16.2
+[23:29:08] [Server thread/INFO]: Loading properties
+[23:29:08] [Server thread/INFO]: This server is running Yatopia version git-Yatopia-"cf09bf2" (MC: 1.16.2) (Implementing API version 1.16.2-R0.1-SNAPSHOT)
+[23:29:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:29:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:29:09] [Server thread/INFO]: Debug logging is disabled
+[23:29:09] [Server thread/INFO]: Default game type: SURVIVAL
+[23:29:09] [Server thread/INFO]: Generating keypair
+[23:29:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:29:10] [Server thread/INFO]: Using epoll channel type
+[23:29:13] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[23:29:17] [Server thread/WARN]: Legacy plugin MVdWPlaceholderAPI v3.1.1 does not specify an api-version.
+[23:29:17] [Server thread/WARN]: Legacy plugin PermissionsEx v1.23.4 does not specify an api-version.
+[23:29:18] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.9
+[23:29:18] [Server thread/INFO]: [Challenges] Loading Challenges v3.0.2
+[23:29:18] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.4
+[23:29:18] [Server thread/INFO]: [PvPToggle] Loading PvPToggle v1.7
+[23:29:18] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
+[23:29:18] [Server thread/INFO]: [MVdWPlaceholderAPI] Loading MVdWPlaceholderAPI v3.1.1
+[23:29:18] [Server thread/INFO]: [ImageOnMap] Loading ImageOnMap v4.0
+[23:29:18] [Server thread/INFO]: [PL-Hide] Loading PL-Hide v1.5.16.1
+[23:29:18] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[23:29:18] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b${env.TRAVIS_BUILD_NUMBER}
+[23:29:18] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0-SNAPSHOT+5280-46c3fcc
+[23:29:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6fc6608e]
+[23:29:19] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
+[23:29:19] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.4-beta1;bc551da
+[23:29:19] [Server thread/INFO]: [PlayerStatueBuilderX] Loading PlayerStatueBuilderX v1.9
+[23:29:19] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.27-SNAPSHOT (build 2100)
+[23:29:19] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.17.2.0
+[23:29:19] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.3.1
+[23:29:19] [Server thread/INFO]: [Residence] Loading Residence v4.9.1.9
+[23:29:19] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.0
+[23:29:19] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.17.2.0
+[23:29:19] [Server thread/INFO]: [TAB] Loading TAB v2.8.4
+[23:29:19] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.145
+[23:29:20] [Server thread/INFO]: [mcMMO] Registered WG flags successfully!
+[23:29:20] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.0
+[23:29:20] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.1
+[23:29:20] [Server thread/INFO]: [QuickShop] Loading QuickShop v4.0.4.9
+[23:29:20] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booting up...
+[23:29:20] [Server thread/INFO]: [QuickShop] Loading up integration modules.
+[23:29:20] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booted up...
+[23:29:20] [Server thread/INFO]: [UltimateChairs] Loading UltimateChairs v1.0.9
+[23:29:20] [Server thread/INFO]: [UltimateChairs] Registered WorldGuard flag 'allow-chair-sitting'.
+[23:29:20] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.19.1
+[23:29:20] [Server thread/INFO]: [LockettePro] Loading LockettePro v2.9.10
+[23:29:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:29:20] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b${env.TRAVIS_BUILD_NUMBER}
+[23:29:20] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[23:29:20] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[23:29:20] [Server thread/WARN]: [Vault] Loaded class ru.tehkode.permissions.bukkit.PermissionsEx from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
+[23:29:20] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[23:29:20] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[23:29:20] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[23:29:20] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b${env.TRAVIS_BUILD_NUMBER}
+[23:29:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0-SNAPSHOT+5280-46c3fcc
+[23:29:20] [Server thread/WARN]: [WorldEdit] Loaded class ru.tehkode.permissions.PermissionManager from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
+[23:29:20] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[23:29:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R2 as the Bukkit adapter
+[23:29:22] [Server thread/INFO]: Preparing level "dango"
+[23:29:23] [Server thread/INFO]: -------- World Settings For [dango] --------
+[23:29:23] [Server thread/INFO]: Experience Merge Radius: 6.0
+[23:29:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:29:23] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Ra 48 / Mi 2 / Tiv false
+[23:29:23] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 3 Hopper Amount: 3
+[23:29:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[23:29:23] [Server thread/INFO]: Max TNT Explosions: 100
+[23:29:23] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[23:29:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:29:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:29:23] [Server thread/INFO]: View Distance: 10
+[23:29:23] [Server thread/INFO]: Item Merge Radius: 4.0
+[23:29:23] [Server thread/INFO]: Item Despawn Rate: 400
+[23:29:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:29:23] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:300
+[23:29:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:29:23] [Server thread/INFO]: Mob Spawn Range: 3
+[23:29:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[23:29:24] [Server thread/INFO]: -------- World Settings For [dango_nether] --------
+[23:29:24] [Server thread/INFO]: Experience Merge Radius: 6.0
+[23:29:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:29:24] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Ra 48 / Mi 2 / Tiv false
+[23:29:24] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 3 Hopper Amount: 3
+[23:29:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[23:29:24] [Server thread/INFO]: Max TNT Explosions: 100
+[23:29:24] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[23:29:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:29:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:29:24] [Server thread/INFO]: View Distance: 10
+[23:29:24] [Server thread/INFO]: Item Merge Radius: 4.0
+[23:29:24] [Server thread/INFO]: Item Despawn Rate: 400
+[23:29:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:29:24] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:300
+[23:29:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:29:24] [Server thread/INFO]: Mob Spawn Range: 3
+[23:29:24] [Server thread/WARN]: Unable to find spawn biome
+[23:29:26] [Server thread/INFO]: -------- World Settings For [dango_the_end] --------
+[23:29:26] [Server thread/INFO]: Experience Merge Radius: 6.0
+[23:29:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:29:26] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Ra 48 / Mi 2 / Tiv false
+[23:29:26] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 3 Hopper Amount: 3
+[23:29:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[23:29:26] [Server thread/INFO]: Max TNT Explosions: 100
+[23:29:26] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[23:29:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:29:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:29:26] [Server thread/INFO]: View Distance: 10
+[23:29:26] [Server thread/INFO]: Item Merge Radius: 4.0
+[23:29:26] [Server thread/INFO]: Item Despawn Rate: 400
+[23:29:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:29:26] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:300
+[23:29:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:29:26] [Server thread/INFO]: Mob Spawn Range: 3
+[23:29:26] [Server thread/WARN]: Unable to find spawn biome
+[23:29:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:29:27] [Server thread/INFO]: Loaded 0 spawn chunks for world dango
+[23:29:27] [Server thread/INFO]: Time elapsed: 113 ms
+[23:29:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:29:28] [Server thread/INFO]: Loaded 0 spawn chunks for world dango_nether
+[23:29:28] [Server thread/INFO]: Time elapsed: 229 ms
+[23:29:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:29:28] [Server thread/INFO]: Loaded 0 spawn chunks for world dango_the_end
+[23:29:28] [Server thread/INFO]: Time elapsed: 146 ms
+[23:29:28] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.9
+[23:29:28] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[23:29:28] [Server thread/INFO]: [Challenges] Enabling Challenges v3.0.2
+[23:29:28] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.4
+[23:29:29] [Challenges Thread 0/INFO]: [Challenges] Loaded configuration
+[23:29:29] [Server thread/INFO]: [PvPToggle] Enabling PvPToggle v1.7
+[23:29:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: PvPToggle
+[23:29:29] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
+[23:29:29] [Server thread/WARN]: [Multiverse-Core] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b${env.TRAVIS_BUILD_NUMBER} which is not a depend, softdepend or loadbefore of this plugin.
+[23:29:29] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[23:29:29] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
+[23:29:29] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
+[23:29:30] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[23:29:30] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[23:29:30] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[23:29:30] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[23:29:30] [Server thread/INFO]: [MVdWPlaceholderAPI] Enabling MVdWPlaceholderAPI v3.1.1*
+[23:29:30] [Server thread/INFO]: [MVdWPlaceholderAPI] Initializing placeholders ...
+[23:29:30] [Server thread/INFO]: [MVdWPlaceholderAPI] Sending metrics ...
+[23:29:30] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v4.0
+[23:29:31] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[23:29:31] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[23:29:31] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[23:29:31] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[23:29:31] [Server thread/INFO]: [ImageOnMap] Loaded 3 player map files.
+[23:29:31] [Server thread/INFO]: [PL-Hide] Enabling PL-Hide v1.5.16.1
+[23:29:31] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4*
+[23:29:31] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[23:29:31] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[23:29:31] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[23:29:31] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[23:29:31] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[23:29:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[23:29:31] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[23:29:32] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[23:29:32] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[23:29:32] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[23:29:32] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[23:29:32] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[23:29:32] [Server thread/INFO]: [Essentials] Loaded 21018 items from items.json.
+[23:29:32] [Server thread/INFO]: [Essentials] Using locale zh_TW
+[23:29:32] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[23:29:32] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[23:29:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[23:29:32] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[23:29:32] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.4-beta1;bc551da
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango) TNT ignition is PERMITTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango) Lighters are PERMITTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango) Lava fire is PERMITTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango) Fire spread is UNRESTRICTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'dango'
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango_nether) TNT ignition is PERMITTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango_nether) Lighters are PERMITTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango_nether) Lava fire is PERMITTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango_nether) Fire spread is UNRESTRICTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'dango_nether'
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango_the_end) TNT ignition is PERMITTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango_the_end) Lighters are PERMITTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango_the_end) Lava fire is PERMITTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] (dango_the_end) Fire spread is UNRESTRICTED.
+[23:29:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'dango_the_end'
+[23:29:33] [Server thread/INFO]: [WorldGuard] Loading region data...
+[23:29:33] [Server thread/INFO]: [PlayerStatueBuilderX] Enabling PlayerStatueBuilderX v1.9
+[23:29:33] [Server thread/INFO]: [PlayerStatueBuilderX]: Config.yml found, loading!
+[23:29:33] [Server thread/INFO]: [PlayerStatueBuilderX]: Worldguard detected!
+[23:29:33] [Server thread/INFO]: [PlayerStatueBuilderX]: Vault detected!
+[23:29:33] [Server thread/INFO]: [PlayerStatueBuilderX]: Loading texture /chainmail_armor.png
+[23:29:33] [Server thread/INFO]: [PlayerStatueBuilderX]: Loading texture /iron_armor.png
+[23:29:33] [Server thread/INFO]: [PlayerStatueBuilderX]: Loading texture /golden_armor.png
+[23:29:33] [Server thread/INFO]: [PlayerStatueBuilderX]: Loading texture /diamond_armor.png
+[23:29:33] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.27-SNAPSHOT (build 2100)
+[23:29:34] [Thread-13/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[23:29:34] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.17.2.0
+[23:29:34] [Server thread/WARN]: [EssentialsXMPP] config broken for xmpp
+[23:29:34] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.3.1
+[23:29:34] [Server thread/INFO]: [ChestCommands] Hooked PlaceholderAPI
+[23:29:34] [Server thread/INFO]: [Residence] Enabling Residence v4.9.1.9
+[23:29:37] [Server thread/INFO]: [Residence] Can't find world with (world_nether) name
+[23:29:37] [Server thread/INFO]: [Residence] Can't find world with (world_the_end) name
+[23:29:37] [Server thread/INFO]: [Residence] Can't find world with (world) name
+[23:29:37] [Server thread/INFO]: [Residence] Can't find world with (survive_world) name
+[23:29:37] [Server thread/INFO]: [Residence] Can't find world with (shigen) name
+[23:29:37] [Server thread/INFO]: [Residence] Can't find world with (build) name
+[23:29:37] [Server thread/INFO]: [Residence] Can't find world with (old) name
+[23:29:37] [Server thread/INFO]: [Residence] Can't find world with (old_the_end) name
+[23:29:37] [Server thread/INFO]: [Residence] Can't find world with (old_nether) name
+[23:29:37] [Server thread/INFO]: [Residence] Found Vault using permissions plugin:PermissionsEx
+[23:29:37] [Server thread/INFO]: [Residence] Scanning for economy systems...
+[23:29:37] [Server thread/INFO]: [Residence] Found Vault using economy system: Essentials Economy
+[23:29:38] [Server thread/INFO]: [Residence] Loading save data for world dango...
+[23:29:38] [Server thread/INFO]: [Residence] Loaded dango data. (6 ms)
+[23:29:38] [Server thread/INFO]: [Residence] Loading save data for world dango_nether...
+[23:29:38] [Server thread/INFO]: [Residence] Loaded dango_nether data. (1 ms)
+[23:29:38] [Server thread/INFO]: [Residence] Loading save data for world dango_the_end...
+[23:29:38] [Server thread/INFO]: [Residence] Loaded dango_the_end data. (17 ms)
+[23:29:38] [Server thread/INFO]: [Residence] Loading dango data into memory...
+[23:29:38] [Server thread/INFO]: [Residence] Loaded dango data into memory. (0 ms) -> 0 residences
+[23:29:38] [Server thread/INFO]: [Residence] Loading dango_nether data into memory...
+[23:29:38] [Server thread/INFO]: [Residence] Loaded dango_nether data into memory. (0 ms) -> 0 residences
+[23:29:38] [Server thread/INFO]: [Residence] Loading dango_the_end data into memory...
+[23:29:38] [Server thread/INFO]: [Residence] Loaded dango_the_end data into memory. (0 ms) -> 0 residences
+[23:29:38] [Server thread/INFO]: [Residence] Found WorldEdit 7.2.0-SNAPSHOT+5280-46c3fcc
+[23:29:38] [Server thread/INFO]: [Residence] Found WorldGuard 7.0.4-beta1;bc551da
+[23:29:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: residence
+[23:29:38] [Server thread/INFO]: [Residence] PlaceholderAPI hooked.
+[23:29:38] [Server thread/INFO]: [Residence] PlaceholderAPI was found - Enabling capabilities.
+[23:29:38] [Server thread/INFO]: [Residence] Enabled! Version 4.9.1.9 by Zrips
+[23:29:38] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.0
+[23:29:38] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.17.2.0
+[23:29:38] [Server thread/WARN]: [Essentials] Missing translation key "geoIpLicenseMissing" in translation file zh_TW
+java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key geoIpLicenseMissing
+	at java.util.ResourceBundle.getObject(ResourceBundle.java:564) ~[?:?]
+	at java.util.ResourceBundle.getObject(ResourceBundle.java:558) ~[?:?]
+	at java.util.ResourceBundle.getObject(ResourceBundle.java:558) ~[?:?]
+	at java.util.ResourceBundle.getString(ResourceBundle.java:521) ~[?:?]
+	at com.earth2me.essentials.I18n.translate(I18n.java:64) ~[?:?]
+	at com.earth2me.essentials.I18n.tl(I18n.java:77) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.downloadDatabase(EssentialsGeoIPPlayerListener.java:181) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.reloadConfig(EssentialsGeoIPPlayerListener.java:141) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.<init>(EssentialsGeoIPPlayerListener.java:43) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIP.onEnable(EssentialsGeoIP.java:31) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:485) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:399) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:462) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:262) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:936) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:165) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-[05:12:27] [Craft Scheduler Thread - 1445 - Vault/INFO]: [Vault] Checking for Updates ... 
-[05:12:28] [Craft Scheduler Thread - 1447 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[05:12:28] [Craft Scheduler Thread - 1447 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[05:12:28] [Craft Scheduler Thread - 1445 - Vault/INFO]: [Vault] No new version available
-[06:12:28] [Craft Scheduler Thread - 1686 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[06:12:28] [Craft Scheduler Thread - 1686 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[07:12:28] [Craft Scheduler Thread - 1923 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[07:12:28] [Craft Scheduler Thread - 1923 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[07:59:34] [Server thread/INFO]: CONSOLE issued server command: /ping 
-[07:59:34] [Server thread/INFO]: 啪！
-[07:59:44] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[07:59:52] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[07:59:58] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[08:12:28] [Craft Scheduler Thread - 2166 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[08:12:28] [Craft Scheduler Thread - 2166 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[09:12:28] [Craft Scheduler Thread - 2405 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[09:12:28] [Craft Scheduler Thread - 2405 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[10:12:28] [Craft Scheduler Thread - 2645 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[10:12:28] [Craft Scheduler Thread - 2645 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[11:12:27] [Craft Scheduler Thread - 2884 - Vault/INFO]: [Vault] Checking for Updates ... 
-[11:12:28] [Craft Scheduler Thread - 2886 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[11:12:28] [Craft Scheduler Thread - 2886 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[11:12:28] [Craft Scheduler Thread - 2884 - Vault/INFO]: [Vault] No new version available
-[11:18:03] [User Authenticator #5/INFO]: UUID of player YingLraft is 77fc970a-8286-4950-9a68-53a17b8a8fc3
-[11:18:03] [Server thread/INFO]: YingLraft joined the game
-[11:18:03] [Server thread/INFO]: YingLraft[/39.13.99.95:7922] logged in with entity id 7736 at ([dango]948.6516242792677, 81.49265471705844, -314.2062622137043)
-[11:18:03] [Server thread/WARN]: [Essentials] Task #293844 for Essentials v2.17.2.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.b(MinecraftServer.java:1367) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.DedicatedServer.b(DedicatedServer.java:396) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1277) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[23:29:38] [Server thread/ERROR]: [EssentialsGeoIP] No license key found! Please visit https://essentialsx.cf/geoip for first time setup instructions.
+[23:29:38] [Server thread/ERROR]: [EssentialsGeoIP] GeoIP資料庫讀取失敗!
+java.io.FileNotFoundException: plugins/EssentialsGeoIP/GeoIP2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method) ~[?:?]
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:345) ~[?:?]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:259) ~[?:?]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:214) ~[?:?]
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19) ~[?:?]
+	at com.maxmind.db.Reader.<init>(Reader.java:116) ~[?:?]
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66) ~[?:?]
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54) ~[?:?]
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.reloadConfig(EssentialsGeoIPPlayerListener.java:158) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.<init>(EssentialsGeoIPPlayerListener.java:43) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIP.onEnable(EssentialsGeoIP.java:31) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:485) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:399) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:462) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:262) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:936) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:165) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-[11:18:09] [Server thread/INFO]: YingLraft issued server command: /gm 1
-[11:18:54] [Server thread/INFO]: YingLraft lost connection: Disconnected
-[11:18:54] [Server thread/INFO]: YingLraft left the game
-[11:18:54] [Server thread/WARN]: [Essentials] Task #319689 for Essentials v2.17.2.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.b(MinecraftServer.java:1367) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.DedicatedServer.b(DedicatedServer.java:396) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1277) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:165) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-[11:25:38] [Server thread/INFO]: com.mojang.authlib.GameProfile@5fb4d61b[id=<null>,name=YingLraft,properties={},legacy=false] (/39.13.99.95:8156) lost connection: Disconnected
-[11:26:33] [User Authenticator #6/INFO]: UUID of player YingLraft is 77fc970a-8286-4950-9a68-53a17b8a8fc3
-[11:26:34] [Server thread/INFO]: YingLraft joined the game
-[11:26:34] [Server thread/INFO]: YingLraft[/39.13.99.95:8236] logged in with entity id 7888 at ([dango]968.9410111432737, 86.35652650627665, -326.07895306866806)
-[11:26:34] [Server thread/WARN]: [Essentials] Task #319733 for Essentials v2.17.2.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.b(MinecraftServer.java:1367) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.DedicatedServer.b(DedicatedServer.java:396) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1277) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:165) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-[11:26:40] [Server thread/INFO]: YingLraft issued server command: /gm 1
-[11:28:20] [Server thread/INFO]: YingLraft issued server command: /hd create xiafu 小夫我要進來囉
-[11:31:03] [Server thread/INFO]: YingLraft issued server command: //set 0
-[11:31:15] [Server thread/INFO]: YingLraft issued server command: //removeabove 5
-[11:31:22] [Server thread/INFO]: YingLraft issued server command: //removeabove 15
-[11:31:27] [Server thread/INFO]: YingLraft issued server command: //removeabove 15
-[11:31:30] [Server thread/INFO]: YingLraft issued server command: //removeabove 15
-[11:31:32] [Server thread/INFO]: YingLraft issued server command: //removeabove 15
-[11:31:34] [Server thread/INFO]: YingLraft issued server command: //removeabove 15
-[11:31:37] [Server thread/INFO]: YingLraft issued server command: //removeabove 15
-[11:31:40] [Server thread/INFO]: YingLraft issued server command: //removeabove 15
-[11:31:42] [Server thread/INFO]: YingLraft issued server command: //removeabove 15
-[11:31:45] [Server thread/INFO]: YingLraft issued server command: //removeabove 15
-[11:31:48] [Server thread/INFO]: YingLraft issued server command: //removeabove 15
-[11:31:57] [Server thread/INFO]: YingLraft issued server command: //removeabove 15
-[11:32:11] [Server thread/INFO]: YingLraft issued server command: /brush smooth
-[11:33:28] [Server thread/INFO]: YingLraft issued server command: //set 2
-[11:33:35] [Server thread/INFO]: YingLraft issued server command: //set 2
-[11:33:38] [Server thread/INFO]: YingLraft issued server command: //set 2
-[11:34:08] [Server thread/INFO]: YingLraft issued server command: /time set 0
-[11:36:25] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:27] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:28] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:28] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:29] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:29] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:30] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:30] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:31] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:31] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:32] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:32] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:33] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:34] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:34] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:35] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:35] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:36] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:36:49] [Server thread/INFO]: YingLraft issued server command: /co inspect
-[11:36:57] [Server thread/INFO]: YingLraft issued server command: /co inspect
-[11:37:02] [Server thread/INFO]: YingLraft issued server command: /co undo
-[11:37:17] [Server thread/INFO]: YingLraft issued server command: /co near
-[11:37:25] [Server thread/INFO]: YingLraft issued server command: /co rollback
-[11:37:31] [Server thread/INFO]: YingLraft issued server command: /co rollback YingLraft
-[11:37:38] [Server thread/INFO]: YingLraft issued server command: /co rollback time: 9
-[11:37:40] [Server thread/INFO]: YingLraft issued server command: /co rollback time: 9d
-[11:37:48] [Server thread/INFO]: YingLraft issued server command: /co rollback time: 9d
-[11:38:05] [Server thread/INFO]: YingLraft issued server command: //set 0
-[11:38:09] [Server thread/INFO]: YingLraft issued server command: //set 0
-[11:38:33] [Server thread/INFO]: YingLraft issued server command: //set 2
-[11:38:50] [Server thread/INFO]: YingLraft issued server command: //set 1
-[11:39:18] [Server thread/INFO]: YingLraft issued server command: //set 2
-[11:40:55] [Server thread/INFO]: YingLraft issued server command: /co rollback time: 9h
-[11:41:31] [Server thread/INFO]: YingLraft issued server command: //set 0
-[11:46:17] [Server thread/INFO]: YingLraft issued server command: /time set 0
-[11:49:54] [Server thread/INFO]: YingLraft issued server command: //smooth
-[11:49:57] [Server thread/INFO]: YingLraft issued server command: //smooth
-[11:49:59] [Server thread/INFO]: YingLraft issued server command: //smooth 5
-[11:50:03] [Server thread/INFO]: YingLraft issued server command: //smooth 10
-[11:50:05] [Server thread/INFO]: YingLraft issued server command: //smooth 101
-[11:50:06] [Server thread/INFO]: YingLraft issued server command: //smooth 10
-[11:50:12] [Server thread/INFO]: YingLraft issued server command: //smooth 10
-[11:50:15] [Server thread/INFO]: YingLraft issued server command: //smooth 10
-[11:50:19] [Server thread/INFO]: YingLraft issued server command: //smooth 10
-[11:50:23] [Server thread/INFO]: YingLraft issued server command: //smooth 10
-[11:52:26] [Server thread/INFO]: YingLraft issued server command: //smooth 10 1
-[11:52:51] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:52:54] [Server thread/INFO]: YingLraft issued server command: //naturalize 10
-[11:52:56] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:06] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:07] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:08] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:19] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:27] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:32] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:43] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:45] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:49] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:50] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:50] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:53:54] [Server thread/INFO]: YingLraft issued server command: //smooth
-[11:54:06] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:54:08] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:54:09] [Server thread/INFO]: YingLraft issued server command: //smooth
-[11:54:10] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:54:12] [Server thread/INFO]: YingLraft issued server command: //smooth
-[11:54:13] [Server thread/INFO]: YingLraft issued server command: //smooth
-[11:54:14] [Server thread/INFO]: YingLraft issued server command: //smooth
-[11:54:15] [Server thread/INFO]: YingLraft issued server command: //smooth
-[11:54:16] [Server thread/INFO]: YingLraft issued server command: //smooth
-[11:54:17] [Server thread/INFO]: YingLraft issued server command: //smooth
-[11:54:55] [Server thread/INFO]: YingLraft issued server command: //g white_wool data=(32+15/2/pi*atan2(x,y))%16; (0.75-sqrt(x^2+y^2))^2+z^2 < 0.25^2
-[11:55:08] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:55:18] [Server thread/INFO]: YingLraft issued server command: //g red_wool (z/2)^2+x^2+(5*y/4-sqrt(abs(x)))^2<0.6
-[11:55:25] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:55:46] [Server thread/INFO]: YingLraft issued server command: //g -h glass cos(sqrt(x^2+z^2)*5)/2<y
-[11:55:53] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:57:23] [Server thread/INFO]: YingLraft issued server command: //smooth
-[11:57:28] [Server thread/INFO]: YingLraft issued server command: //undo
-[11:57:44] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:57:55] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:58:04] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[11:58:06] [Server thread/INFO]: YingLraft lost connection: Disconnected
-[11:58:06] [Server thread/INFO]: YingLraft left the game
-[11:58:06] [Server thread/WARN]: [Essentials] Task #525981 for Essentials v2.17.2.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.b(MinecraftServer.java:1367) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.DedicatedServer.b(DedicatedServer.java:396) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1277) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:165) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-[12:12:28] [Craft Scheduler Thread - 3124 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[12:12:28] [Craft Scheduler Thread - 3124 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[13:12:28] [Craft Scheduler Thread - 3364 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[13:12:28] [Craft Scheduler Thread - 3364 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[13:15:35] [Server thread/INFO]: CONSOLE issued server command: /ping 
-[13:15:35] [Server thread/INFO]: 啪！
-[13:15:47] [Server thread/INFO]: CONSOLE issued server command: /pong 
-[13:15:47] [Server thread/INFO]: 啪！
-[14:12:28] [Craft Scheduler Thread - 3603 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[14:12:28] [Craft Scheduler Thread - 3603 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[14:50:21] [Server thread/INFO]: CONSOLE issued server command: /ping 
-[14:50:21] [Server thread/INFO]: 啪！
-[15:12:28] [Craft Scheduler Thread - 3843 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[15:12:28] [Craft Scheduler Thread - 3843 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[15:14:21] [User Authenticator #7/INFO]: UUID of player YingLraft is 77fc970a-8286-4950-9a68-53a17b8a8fc3
-[15:14:21] [Server thread/INFO]: YingLraft joined the game
-[15:14:21] [Server thread/INFO]: YingLraft[/39.13.99.95:7820] logged in with entity id 9125 at ([dango]897.6999999880791, 77.13025089629883, -265.30000001192093)
-[15:14:21] [Server thread/WARN]: [Essentials] Task #526089 for Essentials v2.17.2.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.b(MinecraftServer.java:1367) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.DedicatedServer.b(DedicatedServer.java:396) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1277) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:165) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-[15:14:32] [Server thread/INFO]: YingLraft issued server command: /gm 1
-[15:17:25] [Server thread/INFO]: YingLraft issued server command: /time set 0
-[15:19:49] [Server thread/INFO]: YingLraft issued server command: //set 1
-[15:20:01] [Server thread/INFO]: YingLraft issued server command: //set 1
-[15:20:12] [Server thread/INFO]: YingLraft issued server command: //set 1
-[15:20:21] [Server thread/INFO]: YingLraft issued server command: //set 1
-[15:20:37] [Server thread/INFO]: YingLraft issued server command: //set 1
-[15:20:52] [Server thread/INFO]: YingLraft issued server command: //set 1
-[15:21:32] [Server thread/INFO]: YingLraft issued server command: //set 2
-[15:21:43] [Server thread/INFO]: YingLraft issued server command: //naturalize
-[15:21:48] [Server thread/INFO]: YingLraft issued server command: //set 2
-[15:23:46] [Server thread/INFO]: YingLraft issued server command: //set 1
-[15:23:56] [Server thread/INFO]: YingLraft issued server command: //set 1
-[15:24:21] [Server thread/INFO]: YingLraft issued server command: //fill 2 10 50
-[15:24:25] [Server thread/INFO]: YingLraft issued server command: //undo
-[15:24:29] [Server thread/INFO]: YingLraft issued server command: //undo
-[15:24:33] [Server thread/INFO]: YingLraft issued server command: //redo
-[15:24:35] [Server thread/INFO]: YingLraft issued server command: //fill 2 10 50
-[15:24:44] [Server thread/INFO]: YingLraft issued server command: //fill 2 10 50
-[15:25:07] [Server thread/INFO]: YingLraft issued server command: //set 2
-[15:25:56] [Server thread/INFO]: YingLraft issued server command: //set 1
-[15:26:29] [Server thread/INFO]: YingLraft issued server command: //set 2
-[15:26:39] [Server thread/INFO]: YingLraft issued server command: //undo
-[15:26:41] [Server thread/INFO]: YingLraft issued server command: //undo
-[15:28:42] [Server thread/INFO]: YingLraft issued server command: /time set 0
-[15:30:08] [Server thread/INFO]: YingLraft lost connection: Disconnected
-[15:30:08] [Server thread/INFO]: YingLraft left the game
-[15:30:08] [Server thread/WARN]: [Essentials] Task #658217 for Essentials v2.17.2.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.b(MinecraftServer.java:1367) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.DedicatedServer.b(DedicatedServer.java:396) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1277) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:165) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-[16:12:28] [Craft Scheduler Thread - 4074 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[16:12:28] [Craft Scheduler Thread - 4074 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[17:12:27] [Craft Scheduler Thread - 4324 - Vault/INFO]: [Vault] Checking for Updates ... 
-[17:12:28] [Craft Scheduler Thread - 4324 - Vault/INFO]: [Vault] No new version available
-[17:12:28] [Craft Scheduler Thread - 4323 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[17:12:28] [Craft Scheduler Thread - 4323 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[18:12:28] [Craft Scheduler Thread - 4562 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[18:12:28] [Craft Scheduler Thread - 4562 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[19:01:51] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] System DNS FAILED to resolve hostname discord.com, switching to fallback DNS servers!
-[19:02:01] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 1.1.1.1 failed to resolve discord.com: Receive timed out, Connect timed out
-[19:02:01] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 1.0.0.1 failed to resolve discord.com: Invalid argument, Connection refused
-[19:02:01] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 8.8.8.8 failed to resolve discord.com: Invalid argument, Connection refused
-[19:02:01] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 8.8.4.4 failed to resolve discord.com: Invalid argument, Connection refused
-[19:02:02] [Log4j2-TF-1-AsyncLogger[AsyncContext@68de145]-1/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
-java.net.UnknownHostException: All DNS resolvers failed to resolve hostname discord.com. Not good.
-	at github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:530)
-Caused by: github.scarsz.discordsrv.dependencies.jda.api.exceptions.ContextException
-	at github.scarsz.discordsrv.dependencies.jda.api.exceptions.ContextException.here(ContextException.java:54)
-	at github.scarsz.discordsrv.dependencies.jda.api.requests.Request.<init>(Request.java:71)
-	at github.scarsz.discordsrv.dependencies.jda.api.requests.RestFuture.<init>(RestFuture.java:36)
-	at github.scarsz.discordsrv.dependencies.jda.internal.requests.RestActionImpl.submit(RestActionImpl.java:201)
-	at github.scarsz.discordsrv.dependencies.jda.internal.requests.RestActionImpl.complete(RestActionImpl.java:211)
-	at github.scarsz.discordsrv.dependencies.jda.api.requests.RestAction.complete(RestAction.java:471)
-	at github.scarsz.discordsrv.dependencies.jda.api.utils.SessionControllerAdapter.getGateway(SessionControllerAdapter.java:86)
-	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.getGateway(JDAImpl.java:317)
-	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.resetGatewayUrl(JDAImpl.java:1044)
-	at github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient.connect(WebSocketClient.java:356)
-	at github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient.reconnect(WebSocketClient.java:603)
-	at github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient.reconnect(WebSocketClient.java:555)
-	at github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient.handleReconnect(WebSocketClient.java:526)
-	at github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient.handleDisconnect(WebSocketClient.java:491)
-	at github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient.onDisconnected(WebSocketClient.java:407)
-	at github.scarsz.discordsrv.dependencies.ws.client.ListenerManager.callOnDisconnected(ListenerManager.java:224)
-	at github.scarsz.discordsrv.dependencies.ws.client.WebSocket.finish(WebSocket.java:3730)
-	at github.scarsz.discordsrv.dependencies.ws.client.WebSocket.onThreadsFinished(WebSocket.java:3696)
-	at github.scarsz.discordsrv.dependencies.ws.client.WebSocket.onWritingThreadFinished(WebSocket.java:3685)
-	at github.scarsz.discordsrv.dependencies.ws.client.WritingThread.notifyFinished(WritingThread.java:539)
-	at github.scarsz.discordsrv.dependencies.ws.client.WritingThread.runMain(WritingThread.java:78)
-	at github.scarsz.discordsrv.dependencies.ws.client.WebSocketThread.run(WebSocketThread.java:45)
-
-[19:02:02] [Log4j2-TF-1-AsyncLogger[AsyncContext@68de145]-1/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 2s
-[19:02:14] [Log4j2-TF-1-AsyncLogger[AsyncContext@68de145]-1/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 4s
-[19:02:18] [Log4j2-TF-1-AsyncLogger[AsyncContext@68de145]-1/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 8s
-[19:02:26] [Log4j2-TF-1-AsyncLogger[AsyncContext@68de145]-1/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
-[19:02:43] [Log4j2-TF-1-AsyncLogger[AsyncContext@68de145]-1/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[19:02:43] [Log4j2-TF-1-AsyncLogger[AsyncContext@68de145]-1/WARN]: [DiscordSRV] [JDA] Missed 2 heartbeats! Trying to reconnect...
-[19:02:43] [Log4j2-TF-1-AsyncLogger[AsyncContext@68de145]-1/ERROR]: [DiscordSRV] [JDA] Encountered IDENTIFY Rate Limit!
-[19:02:43] [Log4j2-TF-1-AsyncLogger[AsyncContext@68de145]-1/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 4900). Appending to reconnect queue
-[19:03:20] [Log4j2-TF-1-AsyncLogger[AsyncContext@68de145]-1/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[19:03:21] [Log4j2-TF-1-AsyncLogger[AsyncContext@68de145]-1/INFO]: [DiscordSRV] [JDA] Finished (Re)Loading!
-[19:04:22] [Server thread/INFO]: CONSOLE issued server command: /ping 
-[19:04:22] [Server thread/INFO]: 啪！
-[19:04:47] [Server thread/INFO]: CONSOLE issued server command: /playerlist 
-[19:04:47] [Server thread/INFO]: 當前有 0 個玩家在線,最大在線人數為 200 個玩家.
-[19:04:57] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[19:05:07] [Server thread/INFO]: Usage: /hd create <hologramName> [text]
-[19:12:28] [Craft Scheduler Thread - 4798 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[19:12:28] [Craft Scheduler Thread - 4798 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[19:12:28] [Server thread/INFO]: CONSOLE issued server command: /pong 
-[19:12:28] [Server thread/INFO]: 啪！
-[19:16:17] [Server thread/INFO]: CONSOLE issued server command: /t 
-[19:16:17] [Server thread/INFO]: Sends a private message to the specified player.
-[19:16:17] [Server thread/INFO]: /t <to> <message>
-[19:18:00] [User Authenticator #8/INFO]: UUID of player amdYes_intelNO is db345d89-6f26-450e-96f7-7112da42da62
-[19:18:00] [Server thread/INFO]: amdYes_intelNO joined the game
-[19:18:00] [Server thread/INFO]: amdYes_intelNO[/59.127.192.161:8603] logged in with entity id 9862 at ([dango]922.1822647984603, 80.92482056000566, -314.99363994758966)
-[19:18:00] [Server thread/WARN]: [Essentials] Task #658299 for Essentials v2.17.2.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.b(MinecraftServer.java:1367) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.DedicatedServer.b(DedicatedServer.java:396) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1277) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:165) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-[19:18:08] [Server thread/INFO]: amdYes_intelNO issued server command: /gamemode creative
-[19:19:58] [Server thread/INFO]: amdYes_intelNO issued server command: //brush smooth 4
-[19:20:13] [Server thread/INFO]: amdYes_intelNO issued server command: //brush smooth 4
-[19:22:54] [Server thread/INFO]: amdYes_intelNO issued server command: //set 2
-[19:23:48] [Server thread/INFO]: amdYes_intelNO issued server command: //set 2
-[19:25:29] [Server thread/INFO]: amdYes_intelNO issued server command: //set 2
-[19:26:43] [Server thread/INFO]: amdYes_intelNO issued server command: //removenear oak_leaves
-[19:26:46] [Server thread/INFO]: amdYes_intelNO issued server command: //removenear oak_log
-[19:27:02] [Server thread/INFO]: amdYes_intelNO issued server command: //removenear dark_oak_leaves
-[19:27:05] [Server thread/INFO]: amdYes_intelNO issued server command: //removenear dark_oak_log
-[19:28:03] [Server thread/INFO]: amdYes_intelNO issued server command: //set 2
-[19:28:59] [Server thread/INFO]: amdYes_intelNO issued server command: //pos1
-[19:29:05] [Server thread/INFO]: amdYes_intelNO issued server command: //pos2
-[19:29:10] [Server thread/INFO]: amdYes_intelNO issued server command: //set sand
-[19:29:37] [Server thread/INFO]: amdYes_intelNO issued server command: //replace sand 2
-[19:29:48] [Server thread/INFO]: amdYes_intelNO issued server command: //replace sand 2
-[19:29:50] [Server thread/INFO]: amdYes_intelNO issued server command: //replace sand 2
-[19:32:17] [Server thread/INFO]: amdYes_intelNO issued server command: //undo
-[19:32:26] [Server thread/INFO]: amdYes_intelNO issued server command: /co i
-[19:32:46] [Server thread/INFO]: amdYes_intelNO lost connection: Disconnected
-[19:32:46] [Server thread/INFO]: amdYes_intelNO left the game
-[19:32:46] [Server thread/WARN]: [Essentials] Task #827144 for Essentials v2.17.2.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.b(MinecraftServer.java:1367) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.DedicatedServer.b(DedicatedServer.java:396) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1277) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:165) ~[patched_1.16.2.jar:git-Yatopia-"cf09bf2"]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-[20:12:28] [Craft Scheduler Thread - 5040 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[20:12:28] [Craft Scheduler Thread - 5040 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[21:12:28] [Craft Scheduler Thread - 5278 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
-[21:12:28] [Craft Scheduler Thread - 5278 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
-[21:28:17] [Server thread/INFO]: Stopping the server
-[21:28:18] [Server thread/INFO]: Stopping server
-[21:28:18] [Server thread/INFO]: [LockettePro] Disabling LockettePro v2.9.10
-[21:28:18] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.19.1
-[21:28:18] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Saved linked accounts in 1ms
-[21:28:18] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 589ms
-[21:28:18] [Server thread/INFO]: [UltimateChairs] Disabling UltimateChairs v1.0.9
-[21:28:18] [Server thread/INFO]: [QuickShop] Disabling QuickShop v4.0.4.9
-[21:28:18] [Server thread/INFO]: [QuickShop] QuickShop is finishing remaining work, this may need a while...
-[21:28:18] [Server thread/INFO]: [QuickShop] Please wait for the data to flush its data...
-[21:28:18] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.1
-[21:28:18] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[21:28:19] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.1
-[21:28:19] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.2.0
-[21:28:19] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.145
-[21:28:19] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
-[21:28:19] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
-[21:28:20] [Server thread/INFO]: [TAB] Disabling TAB v2.8.4
-[21:28:20] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:28:20] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.17.2.0
-[21:28:20] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.2.0
-[21:28:20] [Server thread/INFO]: [Residence] Disabling Residence v4.9.1.9
-[21:28:20] [Server thread/INFO]: [Residence] Disabled!
-[21:28:20] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.3.1
-[21:28:20] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.17.2.0
-[21:28:20] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.27-SNAPSHOT (build 2100)
-[21:28:20] [Server thread/INFO]: [PlayerStatueBuilderX] Disabling PlayerStatueBuilderX v1.9
-[21:28:20] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.4-beta1;bc551da
-[21:28:20] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[21:28:20] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
-[21:28:20] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[21:28:20] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0-SNAPSHOT+5280-46c3fcc
-[21:28:20] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:28:20] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b${env.TRAVIS_BUILD_NUMBER}
-[21:28:20] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
-[21:28:20] [Server thread/INFO]: [PL-Hide] Disabling PL-Hide v1.5.16.1
-[21:28:20] [Server thread/INFO]: [ImageOnMap] Disabling ImageOnMap v4.0
-[21:28:20] [Server thread/INFO]: [MVdWPlaceholderAPI] Disabling MVdWPlaceholderAPI v3.1.1
-[21:28:20] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
-[21:28:20] [Server thread/INFO]: [PvPToggle] Disabling PvPToggle v1.7
-[21:28:20] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.4
-[21:28:20] [Server thread/INFO]: [Challenges] Disabling Challenges v3.0.2
-[21:28:21] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.9
-[21:28:21] [Server thread/INFO]: Saving players
-[21:28:21] [Server thread/INFO]: Saving worlds
-[21:28:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[dango]'/minecraft:overworld
-[21:28:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (dango): All chunks are saved
-[21:28:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[dango_nether]'/minecraft:the_nether
-[21:28:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:28:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[dango_the_end]'/minecraft:the_end
-[21:28:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:28:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (dango): All chunks are saved
-[21:28:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:28:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:28:22] [Server thread/INFO]: Saving usercache.json
-[21:28:22] [Server thread/INFO]: Flushing Chunk IO
-[21:28:22] [Server thread/INFO]: Closing Thread Pool
-[21:28:22] [Server thread/INFO]: Closing Server
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[23:29:38] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[23:29:38] [Server thread/INFO]: [TAB] Enabling TAB v2.8.4
+[23:29:38] [Server thread/INFO]: [TAB] Server version: 1.16.2 (v1_16_R2)
+[23:29:38] [Server thread/INFO]: [TAB] File plugins/TAB/errors.txt exists and is not empty. Please take a look at the errors and try to correct them. You can also join our discord for assistance. After you resolve them, delete the file.
+[23:29:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab
+[23:29:38] [Server thread/INFO]: [TAB] There was 1 startup warning.
+[23:29:38] [Server thread/INFO]: [TAB] Enabled in 245ms
+[23:29:38] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.145
+[23:29:38] [Server thread/INFO]: [mcMMO] Platform String: 1.16.2-R0.1-SNAPSHOT
+[23:29:38] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.16.2
+[23:29:38] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
+[23:29:38] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
+[23:29:39] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
+[23:29:39] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
+[23:29:40] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[23:29:40] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.0
+[23:29:40] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.1
+[23:29:40] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[23:29:40] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[23:29:40] [Server thread/INFO]: --------------------
+[23:29:40] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[23:29:40] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[23:29:40] [Server thread/INFO]: --------------------
+[23:29:40] [Server thread/INFO]: [QuickShop] Enabling QuickShop v4.0.4.9
+[23:29:40] [Server thread/INFO]: [QuickShop] Quickshop Reremake
+[23:29:40] [Server thread/INFO]: [QuickShop] Running QuickShop-Reremake on NMS version v1_16_R2 For Minecraft version 1.16.2
+[23:29:40] [Server thread/INFO]: [QuickShop] Reading the configuration...
+[23:29:40] [Server thread/INFO]: [QuickShop] Developers: PotatoCraft Studio, Netherfoam, Timtower, KaiNoMood, Ghost_chu, Mgazul, TiaraRinne, sandtechnology
+[23:29:40] [Server thread/INFO]: [QuickShop] Original author: Netherfoam, Timtower, KaiNoMood
+[23:29:40] [Server thread/INFO]: [QuickShop] Let's start loading the plugin
+[23:29:40] [Server thread/INFO]: [QuickShop] Loading plugin translations files...
+[23:29:41] [Server thread/INFO]: [QuickShop] Translator: Ghost_chu, Andre_601
+[23:29:41] [Server thread/INFO]: [QuickShop] Contributors: Timtower, Netherfoam, KaiNoMood, Mgazul, JackTheChicken and Andre_601
+[23:29:41] [Server thread/INFO]: [QuickShop] Language Zone: English (en_US)
+[23:29:41] [Server thread/INFO]: [QuickShop] Completed to load plugin translations files.
+[23:29:41] [Server thread/INFO]: [QuickShop] Starting loading items translation...
+[23:29:42] [Server thread/INFO]: [QuickShop] Complete to load items translation.
+[23:29:42] [Server thread/INFO]: [QuickShop] Starting loading enchantments translation...
+[23:29:42] [Server thread/INFO]: [QuickShop] Complete to load enchantments translation.
+[23:29:42] [Server thread/INFO]: [QuickShop] Starting loading potions translation...
+[23:29:42] [Server thread/INFO]: [QuickShop] Complete to load potions effect translation.
+[23:29:42] [Server thread/INFO]: [QuickShop] Successfully loaded PlaceHolderAPI support!
+[23:29:42] [Server thread/INFO]: [QuickShop] Selected permission provider: Bukkit
+[23:29:42] [Server thread/INFO]: [QuickShop] Loading shops from the database...
+[23:29:42] [Server thread/INFO]: [QuickShop] Used 0ms to fetch all shops from the database.
+[23:29:42] [Server thread/INFO]: [QuickShop] Successfully loaded 0 shops! (Used 0ms, Avg 0ms per shop)
+[23:29:42] [Server thread/INFO]: [QuickShop] 0 shops will load after chunk have loaded, 0 shops will load after the world has loaded.
+[23:29:42] [Server thread/INFO]: [QuickShop] Registering Listeners...
+[23:29:42] [Server thread/INFO]: [QuickShop] Registering DisplayCheck task....
+[23:29:42] [Server thread/INFO]: [QuickShop] Cleaning MsgUtils...
+[23:29:42] [Server thread/INFO]: [QuickShop] Cleaning purchase messages from the database that are over a week old...
+[23:29:42] [Server thread/INFO]: [QuickShop] Registering UpdateWatcher...
+[23:29:42] [Server thread/INFO]: [QuickShop] QuickShop Loaded! 1766 ms.
+[23:29:42] [Server thread/INFO]: [QuickShop] Log actions is enabled, actions will log in the qs.log file!
+[23:29:42] [Server thread/INFO]: [UltimateChairs] Enabling UltimateChairs v1.0.9
+[23:29:42] [Server thread/INFO]: [UltimateChairs] WorldGuard v7.0.4-beta1;bc551da hooked.
+[23:29:42] [Server thread/INFO]: [UltimateChairs] Residence v4.9.1.9 hooked.
+[23:29:42] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.19.1
+[23:29:42] [Server thread/INFO]: [LockettePro] Enabling LockettePro v2.9.10
+[23:29:42] [Server thread/WARN]: [LockettePro] ===================================
+[23:29:42] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[23:29:42] [Server thread/INFO]: Running delayed init tasks
+[23:29:43] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[23:29:43] [Craft Scheduler Thread - 9 - mcMMO/INFO]: [mcMMO] Cleaned backup files. Deleted 9 of 14 files.
+[23:29:43] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
+[23:29:43] [Server thread/INFO]: [QuickShop] Registering BStats Mertics...
+[23:29:43] [Server thread/INFO]: [QuickShop] Metrics submitted.
+[23:29:43] [Server thread/INFO]: No expansions were registered!
+[23:29:43] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[23:29:43] [Server thread/INFO]: [QuickShop] Using economy system: Essentials Economy
+[23:29:43] [Server thread/INFO]: Done (34.880s)! For help, type "help"
+[23:29:43] [Server thread/INFO]: Timings Reset
+[23:29:44] [Thread-21/INFO]: [CoreProtect] No donation key found. Please check config.yml.
+[23:29:44] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
+[23:29:44] [Craft Scheduler Thread - 9 - QuickShop/INFO]: [QuickShop] A new version of QuickShop has been released! [31]
+[23:29:44] [Craft Scheduler Thread - 9 - QuickShop/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[23:29:49] [DiscordSRV - Initialization/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (930605a68cca8d2823d67ba4bfb20706b5c90ddf)
+[23:29:52] [Log4j2-TF-1-AsyncLogger[AsyncContext@277050dc]-1/INFO]: [DiscordSRV] [JDA] Login Successful!
+[23:29:54] [Log4j2-TF-1-AsyncLogger[AsyncContext@277050dc]-1/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[23:29:54] [Log4j2-TF-1-AsyncLogger[AsyncContext@277050dc]-1/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:風趣糰子「FunnyDango」(708536897953071228)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:👋welcome(732209365523890256)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:公告專欄(732209989741183029)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:影音特刊(732210007126573147)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:風趣法規(732207791200272416)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:自我介紹(732207823051817064)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:糰子黑名單(732209645846003755)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:糰子交誼所(732208700424716329)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:點歌指令區(732208782909898802)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:一般指令區(732208801805107312)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔵伺服器狀況：開發中(732211349525889134)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📢伺服器即時公告(732211409152114719)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💻伺服器遊戲資訊(732211616711442523)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔊遊戲聊天室(732211740171042816)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔕伺服器後台(732211774820188260)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:風趣購物中心(732210051137404959)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:糰子申請中心(732211049373368350)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:小孩子不要看(732212321606434898)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:團內資料(732212995987603487)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:團內討論(732213012705968159)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:版本控管(731512857199509584)
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel 732211774820188260
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Not using JDBC, one of host/port/database was default
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[23:29:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
