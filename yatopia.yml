@@ -5,7 +5,7 @@
 allow-player-item-duplication: false
 allow-ridable-chestable-duping: false
 allow-sand-duping: false
-brand-name: Yatopia
+brand-name: FunnyDango
 verbose: false
 async-advancements: true
 use-faster-eigencraft-redstone: false
