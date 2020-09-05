@@ -66,6 +66,7 @@ world-settings:
       polar_bear:
         breedable-item: ''
       squid:
+        water-offset-check: 0.0
         immune-to-EAR: true
       dolphin:
         disable-treasure-searching: false
