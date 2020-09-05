@@ -3,7 +3,8 @@
 =======
 paperlatest.jar
 >>>>>>> 04dfe89eee0386a3f2b77dcead1eae053c53687d
-cache
+cache/patched_1.16.2.jar
+cache/mojang_1.16.2.jar
 .console_history
 dango
 dango_nether
