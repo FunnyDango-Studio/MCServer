@@ -6,9 +6,9 @@ paperlatest.jar
 cache/patched_1.16.3.jar
 cache/mojang_1.16.3.jar
 .console_history
-dango
-dango_nether
-dango_the_end
+world
+world_nether
+world_the_end
 old
 old_nether
 old_the_end
