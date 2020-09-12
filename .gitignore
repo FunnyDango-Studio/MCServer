@@ -3,8 +3,8 @@
 =======
 paperlatest.jar
 >>>>>>> 04dfe89eee0386a3f2b77dcead1eae053c53687d
-cache/patched_1.16.2.jar
-cache/mojang_1.16.2.jar
+cache/patched_1.16.3.jar
+cache/mojang_1.16.3.jar
 .console_history
 dango
 dango_nether
@@ -14,8 +14,4 @@ old_nether
 old_the_end
 plugins
 logs
-<<<<<<< HEAD
-yatopia-1.16.2-paperclip.jar
-=======
-yatopia-1.16.2-paperclip.jar
->>>>>>> 04dfe89eee0386a3f2b77dcead1eae053c53687d
+1.16.3.jar
