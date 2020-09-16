@@ -1,0 +1,9 @@
+# Configuration file for Papercut.
+async-advancements: true
+config-version-please-do-not-modify-me: 2
+world-settings:
+  default: {}
+  world: {}
+  world_nether: {}
+  world_the_end: {}
+  survive_world: {}
