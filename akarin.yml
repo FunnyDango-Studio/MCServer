@@ -1,8 +1,0 @@
-# Configuration file for Akarin.
-config-version-please-do-not-modify-me: 1
-world-settings:
-  default: {}
-  world: {}
-  world_nether: {}
-  world_the_end: {}
-  survive_world: {}
