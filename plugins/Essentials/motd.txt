@@ -1,2 +1,0 @@
-&6歡迎, {PLAYER}&6!
-&6在線玩家數:&c {ONLINE} &6- 世界時間:&c {WORLDTIME12}
