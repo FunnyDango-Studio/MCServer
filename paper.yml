@@ -24,6 +24,7 @@ timings:
   history-length: 3600
   server-name: Unknown Server
 settings:
+  track-plugin-scoreboards: false
   max-joins-per-tick: 3
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1

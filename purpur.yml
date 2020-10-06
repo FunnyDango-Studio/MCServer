@@ -71,9 +71,24 @@ world-settings:
       dolphin:
         disable-treasure-searching: false
     gameplay-mechanics:
+      persistent-tileentity-display-names-and-lore: false
       milk-cures-bad-omen: true
       entity-lifespan: 0
       save-projectiles-to-disk: true
+      projectile-despawn-rates:
+        dragon_fireball: -1
+        egg: -1
+        ender_pearl: -1
+        experience_bottle: -1
+        firework_rocket: -1
+        fishing_bobber: -1
+        fireball: -1
+        llama_spit: -1
+        potion: -1
+        shulker_bullet: -1
+        small_fireball: -1
+        snowball: -1
+        wither_skull: -1
     blocks:
       no-tick: []
       anvil:

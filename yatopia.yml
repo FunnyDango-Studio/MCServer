@@ -2,9 +2,6 @@
 # Yatopia contains many breaking changes and settings, so know what you are doing!
 # You have been warned!
 
-allow-player-item-duplication: false
-allow-ridable-chestable-duping: false
-allow-sand-duping: false
 brand-name: FunnyDango
 verbose: false
 async-advancements: true
@@ -18,9 +15,13 @@ settings:
   villager:
     simplerVillagerBehavior: false
     villagersHideAtNight: false
+  checks:
+    flight: true
+    vehicle-flight: true
 config-version-please-do-not-modify-me: 1
 worlds:
   default:
+    villagers-only-open-doors-if-attacked-by-mobs: true
     use-block-distance-in-portal-search-radius: false
     disable-observer-clocks: false
     tick-empty-hoppers: false
@@ -41,6 +42,3 @@ worlds:
       water-ambient: true
     pigmen:
       dont-target-unless-hit: false
-world-settings:
-  default:
-    allow-dragon-exp-duping: false
