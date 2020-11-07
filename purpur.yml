@@ -9,7 +9,7 @@
 # Wiki: https://github.com/pl3xgaming/Purpur/wiki 
 
 verbose: false
-config-version: 4
+config-version: 5
 settings:
   fix-item-position-desync: false
   use-alternate-keepalive: false
@@ -22,6 +22,8 @@ settings:
     ender_chest:
       six-rows: false
       use-permissions-for-rows: false
+  enchantment:
+    allow-infinity-and-mending-together: false
 world-settings:
   default:
     mobs:
@@ -89,6 +91,11 @@ world-settings:
         small_fireball: -1
         snowball: -1
         wither_skull: -1
+      infinity-bow:
+        normal-arrows: true
+        spectral-arrows: false
+        tipped-arrows: false
+        no-arrows: false
     blocks:
       no-tick: []
       anvil:

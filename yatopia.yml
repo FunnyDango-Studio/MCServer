@@ -8,6 +8,7 @@ async-advancements: true
 use-faster-eigencraft-redstone: false
 config-version: 1
 settings:
+  fire-block-physics-event: true
   fixFallDistance: false
   pistonPushLimit: 12
   itemStuckSleepTicks: 1
@@ -18,6 +19,12 @@ settings:
   checks:
     flight: true
     vehicle-flight: true
+  intervals:
+    player-time-statistics: 1
+  criterion-triggers:
+    location: true
+    enter-block: true
+    tick: true
 config-version-please-do-not-modify-me: 1
 worlds:
   default:
